@@ -14,7 +14,10 @@ Install from [Hex.pm](https://hex.pm/packages/absinthe_plug):
 
 ```elixir
 def deps do
-  [{:absinthe_plug, "~> 1.4.0"}]
+  [
+    {:absinthe_plug, github: "rozanov61/absinthe_plug"},
+    {:poison, "~> 4.0.1"}
+  ]
 end
 ```
 
